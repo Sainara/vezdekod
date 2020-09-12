@@ -15,6 +15,7 @@
 		34128A26250CD33A00DAFCBC /* Sbor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34128A25250CD33A00DAFCBC /* Sbor.swift */; };
 		34128A28250CD4F500DAFCBC /* SborsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34128A27250CD4F500DAFCBC /* SborsListViewController.swift */; };
 		34128A2A250CD52A00DAFCBC /* ListItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34128A29250CD52A00DAFCBC /* ListItemCell.swift */; };
+		34128A2C250CD73300DAFCBC /* ExtraStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34128A2B250CD73300DAFCBC /* ExtraStepViewController.swift */; };
 		34C0CDB9250BD93000829008 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C0CDB8250BD93000829008 /* AppDelegate.swift */; };
 		34C0CDBB250BD93000829008 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C0CDBA250BD93000829008 /* SceneDelegate.swift */; };
 		34C0CDBD250BD93000829008 /* InitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C0CDBC250BD93000829008 /* InitViewController.swift */; };
@@ -47,6 +48,7 @@
 		34128A25250CD33A00DAFCBC /* Sbor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sbor.swift; sourceTree = "<group>"; };
 		34128A27250CD4F500DAFCBC /* SborsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SborsListViewController.swift; sourceTree = "<group>"; };
 		34128A29250CD52A00DAFCBC /* ListItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemCell.swift; sourceTree = "<group>"; };
+		34128A2B250CD73300DAFCBC /* ExtraStepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraStepViewController.swift; sourceTree = "<group>"; };
 		34C0CDB5250BD93000829008 /* VKVezdekod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKVezdekod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34C0CDB8250BD93000829008 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34C0CDBA250BD93000829008 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -203,6 +205,7 @@
 				34C0CDFC250C175D00829008 /* SelectTypeViewController.swift */,
 				34128A1B250C2B4000DAFCBC /* CreateFirstStepViewController.swift */,
 				34128A27250CD4F500DAFCBC /* SborsListViewController.swift */,
+				34128A2B250CD73300DAFCBC /* ExtraStepViewController.swift */,
 			);
 			path = CoreViewControllers;
 			sourceTree = "<group>";
@@ -336,6 +339,7 @@
 				34C0CDE1250BE3A400829008 /* Colors.swift in Sources */,
 				34C0CDF0250BE49700829008 /* VKNavigationController.swift in Sources */,
 				34128A1C250C2B4000DAFCBC /* CreateFirstStepViewController.swift in Sources */,
+				34128A2C250CD73300DAFCBC /* ExtraStepViewController.swift in Sources */,
 				34C0CDD4250BE35F00829008 /* RouteProvider.swift in Sources */,
 				34C0CDBD250BD93000829008 /* InitViewController.swift in Sources */,
 				34C0CDFA250BED4300829008 /* VKLabel.swift in Sources */,

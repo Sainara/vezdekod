@@ -86,7 +86,7 @@ class CreateFirstStepViewController: VKStackViewController {
         switch type {
         case .celevoi:
             nextButton = VKButton(text: "Далее") {
-                
+                self.navigationController?.pushViewController(ExtraStepViewController(), animated: true)
             }
         case .regular:
             nextButton = VKButton(text: "Создать сбор") {

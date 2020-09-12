@@ -26,7 +26,7 @@ class InitViewController: VKViewController {
     private func setupView() {
        
         let stackView = UIStackView()
-        stackView.spacing = 24
+        stackView.spacing = 0
         view.addSubview(stackView)
         stackView.snp.makeConstraints { (make) in
             make.leading.equalToSuperview()
@@ -35,9 +35,19 @@ class InitViewController: VKViewController {
         }
         
         
-        let text = VKLabel(text: "У Вас пока нет сборов.\nНачните доброе дело.")
+        let text = VKLabel(text: "У Вас пока нет сборов.")
         text.textAlignment = .center
         stackView.addArrangedSubview(text)
+
+        let text2 = VKLabel(text: "Начните доброе дело.")
+        text2.textAlignment = .center
+        stackView.addArrangedSubview(text2)
+        //stackView.setCustomSpacing(24, after: text2)
+        let padding = UILabel()
+        stackView.addArrangedSubview(padding)
+        padding.snp.makeConstraints { (make) in
+            make.height.equalTo(24)
+        }
         stackView.axis = .vertical
         stackView.distribution = .equalSpacing
         stackView.alignment = .center
